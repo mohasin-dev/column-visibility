@@ -11,3 +11,5 @@
         });
     });
 </script>
+
+<script src="{{ asset('vendor/column-visibility/columnVisibility.js') }}"></script>
