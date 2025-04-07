@@ -45,7 +45,7 @@ Step 1: Include Blade Component in View
 Step 2: Use JS Helper in Your DataTable Init
 
     let table = $('#dataTable').DataTable({
-      columnDefs: buildColumnDefs('dataTable', [0, 4, 5, 6, 9]), // 2nd param is optional: text-center targets
+      columnDefs: buildColumnDefs([0, 4, 5, 6, 9]), // param is optional: text-center targets
       ...
     });
 
