@@ -30,9 +30,9 @@ A Laravel package for managing and persisting DataTables column visibility prefe
 2. **Then publish assets and migrate the database**:
     
     ```bash
-    php artisan vendor:publish --tag="column-visibility-migrations"
+    php artisan vendor:publish --tag=public
+    php artisan vendor:publish --tag=views
     php artisan migrate
-    php artisan vendor:publish --tag="column-visibility-assets"
 
 ### 🧩 Usage
 
@@ -54,11 +54,6 @@ Step 2: Use JS Helper in Your DataTable Init
 - Saves column preferences (hidden columns) in a column_preferences table.
 - Automatically injects hidden columns for the user via a Blade component.
 - The JS helper buildColumnDefs() builds the correct columnDefs dynamically.
-
-### ⚙️ Configuration (Optional)
-If needed, publish the config file:
-    
-    php artisan vendor:publish --tag="column-visibility-config"
 
 ### 🛠️ Requirements
 
