@@ -34,7 +34,7 @@ A Laravel package for managing and persisting DataTables column visibility prefe
     php artisan migrate
     php artisan vendor:publish --tag="column-visibility-assets"
 
-🧩 Usage
+### 🧩 Usage
 
 Step 1: Include Blade Component in View
 
@@ -49,32 +49,32 @@ Step 2: Use JS Helper in Your DataTable Init
       ...
     });
 
-🧠 How It Works
+### 🧠 How It Works
 
 - Saves column preferences (hidden columns) in a column_preferences table.
 - Automatically injects hidden columns for the user via a Blade component.
 - The JS helper buildColumnDefs() builds the correct columnDefs dynamically.
 
-⚙️ Configuration (Optional)
+### ⚙️ Configuration (Optional)
 If needed, publish the config file:
     
     php artisan vendor:publish --tag="column-visibility-config"
 
-🛠️ Requirements
+### 🛠️ Requirements
 
 PHP 8.0+
 Laravel 9, 10, or 11
 jQuery DataTables
 
-🤝 Contributing
+### 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
 
-📝 License
+### 📝 License
 
 This package is open-source software licensed under the MIT license.
 
-🙌 Author
+### 🙌 Author
 
 Mohasin Hossain
 
