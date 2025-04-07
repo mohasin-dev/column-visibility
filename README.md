@@ -39,8 +39,9 @@ A Laravel package for managing and persisting DataTables column visibility prefe
 Step 1: Include Blade Component in View
 
     <x-column-visibility::column-visibility table-key="users" table-id="dataTable" />
-    - table-key: Unique string to identify your table across users (e.g. users-table, orders-table)
-    - table-id: ID of your HTML table (<table id="dataTable">)
+        Explanation:
+        table-key: Unique string to identify your table across users (e.g. users-table, orders-table)
+        table-id: ID of your HTML table (<table id="dataTable">)
   
 Step 2: Use JS Helper in Your DataTable Init
 
