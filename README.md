@@ -9,7 +9,7 @@ A Laravel package for managing and persisting DataTables column visibility prefe
 
 ---
 
-(column-visibility.png)
+![Problem Solution UI](column-visibility.png)
 
 ---
 
