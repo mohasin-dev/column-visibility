@@ -9,6 +9,10 @@ A Laravel package for managing and persisting DataTables column visibility prefe
 
 ---
 
+(column-visibility.png)
+
+---
+
 ## 🚀 Features
 
 - **User-Specific Column Visibility**: Saves each user's column visibility preferences.
