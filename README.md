@@ -57,11 +57,9 @@ Step 2: Use JS Helper in Your DataTable Init
 
 ### 🛠️ Requirements
 
-PHP 8.0+
-
-Laravel 9, 10, or 11
-
-jQuery DataTables
+    PHP 8.0+
+    Laravel 9, 10, or 11
+    jQuery DataTables
 
 ### 🤝 Contributing
 
