@@ -1,4 +1,5 @@
 <?php
+
 namespace MohasinDev\ColumnVisibility\Http\Controllers;
 
 use Illuminate\Routing\Controller;

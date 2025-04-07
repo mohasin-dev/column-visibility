@@ -1,4 +1,5 @@
 <?php
+
 namespace MohasinDev\ColumnVisibility\View\Components;
 
 use Illuminate\View\Component;

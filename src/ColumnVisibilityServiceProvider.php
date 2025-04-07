@@ -1,4 +1,5 @@
 <?php
+
 namespace MohasinDev\ColumnVisibility;
 
 use Illuminate\Support\ServiceProvider;
